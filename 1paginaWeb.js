@@ -1,13 +1,14 @@
 function calcular(){
     if(validavalor1() && validavalor2() && validavalor3() && validavalor4()){ 
     
-        let valor1 = parseFloat (valor1.value);
-        let valor2 = parseFloat (valor2.value);
-        let valor3 = parseFloat (valor3.value);
-        let valor4 = parseFloat (valor4.value);
+        let avalor1 =  valor1.value;
+        let bvalor2 =  valor2.value;
+        let cvalor3 =  valor3.value;
+        let dvalor4 =  valor4.value;
         
-        let valortotal = parseFloat (valor1.value) + parseFloat valor2.value; + parseFloat valor3.value; + parseFloat valor4.value; 
-        resultado.value = valortotal.value / 4     
+        let valortotal = parseFloat (avalor1) + parseFloat (bvalor2) + parseFloat (cvalor3) + parseFloat (dvalor4)
+        resultado.value = valortotal / 4     
+        
     }
     function validavalor1(){
         if(valor1.value.trim() === ""){
